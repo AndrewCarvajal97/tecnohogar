@@ -8,14 +8,14 @@ export const servicios=[
     {
         titulo:"Reparacion De Gas GLP",
         Mensaje:"Reparación rápida y segura de sistemas de gas GLP, con la garantía de un servicio profesional que asegura el óptimo funcionamiento y la seguridad de tu instalación. Confía en nuestros expertos para cualquier necesidad.",
-        imagen:"https://img.freepik.com/foto-gratis/hombre-servicio-ajustando-sistema-calefaccion-casa_1303-26529.jpg?t=st=1735524529~exp=1735528129~hmac=71e4aa7fa5b66b0c60f4f87920710ed7d98f687e844f92ae742ee93ace08741c&w=740",
+        imagen:"/serviciosDeGasGlp.webp",
         UrlService:"/reparacion-gas-natural"
     },
 
     {
-        titulo:"Reparacion De Plomeria y Fontaneria",
+        titulo:"Servicios De Plomeria y Fontaneria",
         Mensaje:"Servicios de plomería y fontanería confiables: reparación, instalación y mantenimiento de sistemas de agua y desagüe, garantizando soluciones duraderas y eficientes para tu hogar o negocio.",
-        imagen:"https://img.freepik.com/foto-gratis/hombre-servicio-ajustando-sistema-calefaccion-casa_1303-26529.jpg?t=st=1735524529~exp=1735528129~hmac=71e4aa7fa5b66b0c60f4f87920710ed7d98f687e844f92ae742ee93ace08741c&w=740",
+        imagen:"https://img.freepik.com/foto-gratis/reparacion-trabajador-mantenimiento-servicio_23-2149176719.jpg?t=st=1735538335~exp=1735541935~hmac=da94d87d5c048a3afd0006e19ff063e4bcdb1bad456e57b2f8ae18965893fa12&w=740",
         UrlService:"/reparacion-gas-natural"
     },
 

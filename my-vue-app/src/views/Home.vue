@@ -3,6 +3,7 @@
         <ImagenCarrousel></ImagenCarrousel>
         <ConjuntoTarjetasInformativas></ConjuntoTarjetasInformativas>
         <SeccionServiciosHome></SeccionServiciosHome>
+        <CintaDeCotizacion></CintaDeCotizacion>
         <div>aca ira algo mas</div>
     </div>
     
@@ -14,6 +15,7 @@
     import ImagenCarrousel from '../components/ImagenCarrousel.vue';
     import ConjuntoTarjetasInformativas from '../layouts/ConjuntoTarjetasInformativas.vue';
     import SeccionServiciosHome from '../layouts/SeccionServiciosHome.vue';
+    import CintaDeCotizacion from '../layouts/CintaDeCotizacion.vue';
 </script>
 
 <style  scoped>
