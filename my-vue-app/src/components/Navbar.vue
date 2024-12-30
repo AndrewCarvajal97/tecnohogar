@@ -85,6 +85,7 @@
     position: relative;
     width: 85%;
     margin: auto;
+    z-index: 2;
   }
   
   nav {
