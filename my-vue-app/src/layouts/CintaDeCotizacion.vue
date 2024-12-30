@@ -13,7 +13,7 @@
             icon="briefcase"
             prefi="fas"
             texto="Cotiza Gratis"
-            ruta="http://localhost:5173/contacto"
+            ruta="/contacto"
             colorFondo="rgb(89, 133, 255)"></BotonDeAccion>
         </div>
     </div>

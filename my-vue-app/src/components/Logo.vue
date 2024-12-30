@@ -1,16 +1,33 @@
 <template>
-   <img :src="imagenLogo" alt="Logo" style="height: 120px; margin: 10px 2rem;">
-</template>
-
-<script setup>
-const props=defineProps({
+    <img 
+      :src="imagenLogo" 
+      alt="Logo" 
+      style="height: 120px; margin: 10px 2rem;" 
+      @click="goHome"
+      class="clickable-logo"
+    >
+  </template>
+  
+  <script setup>
+  import { useRouter } from 'vue-router';
+  
+  const props = defineProps({
     imagenLogo: {
-        type: String,
-        required: true
+      type: String,
+      required: true
     }
-})
-</script>
-
-<style  scoped>
-
-</style>
+  });
+  
+  const router = useRouter();
+  
+  const goHome = () => {
+    router.push('/');
+  };
+  </script>
+  
+  <style scoped>
+  .clickable-logo {
+    cursor: pointer;
+  }
+  </style>
+  

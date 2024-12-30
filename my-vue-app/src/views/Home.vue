@@ -5,8 +5,7 @@
         <SeccionServiciosHome></SeccionServiciosHome>
         <CintaDeCotizacion></CintaDeCotizacion>
         <ColunmaSoluciones></ColunmaSoluciones>
-        <Footer></Footer>
-        <div>aca ira algo mas</div>
+        <FormCotizacion></FormCotizacion>
     </div>
     
     
@@ -19,7 +18,7 @@
     import SeccionServiciosHome from '../layouts/SeccionServiciosHome.vue';
     import CintaDeCotizacion from '../layouts/CintaDeCotizacion.vue';
     import ColunmaSoluciones from '../layouts/ColunmaSoluciones.vue';
-    import Footer from '../components/Footer.vue';
+    import FormCotizacion from '../components/FormCotizacion.vue';
 </script>
 
 <style  scoped>

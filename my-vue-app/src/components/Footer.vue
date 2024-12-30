@@ -1,7 +1,7 @@
 <template>
     <div class="contenedorFooter">
         <div class="columna">
-            <Logo imagenLogo="/Logo.webp"></Logo>
+            <Logo imagenLogo="/Logo.webp" class="logo" style="height: 200px;"></Logo>
             <p>{{ descripcion }}</p>
         </div>
         <div class="columna">
@@ -30,9 +30,46 @@
         </div>
         <div class="columna">
             <h2>CONTACTO</h2>
-            <p>¿Estás listo para hacer realidad tu sueño y Mejorar tu Casa?</p>
-            <p>Cualquier inquietud que tengas no dudes en contactarnos por los siguientes medios.</p>
-            <p>Correo: <a href="mailto:info@mejoracasa.com">info@mejoracasa.com</a></p>
+            <p>¿Necesitas reparar algo en tu hogar? ¡Cotiza gratis en línea y encuentra la solución perfecta!.</p>
+            <div class="contacto">
+                <IconWrapper 
+                    iconName="phone" 
+                    prefix="fas" 
+                    width="30px" 
+                    height="30px" 
+                    color="#f7931e" 
+                />
+                <p>Telefono: <a href="https://wa.me/3112153465" target="_blank">+57 311 215 34 65</a></p>
+            </div>
+            <div class="contacto">
+                <IconWrapper 
+                    iconName="envelope" 
+                    prefix="fas" 
+                    width="30px" 
+                    height="30px" 
+                    color="#f7931e" 
+                />
+                <p>Correo: <a href="mailto:andres.carvajal@texelbit.com" target="_blank">andres.carvajal@texelbit.com</a></p>
+            </div>
+            <div class="contacto">
+                <IconWrapper 
+                    iconName="calendar-alt" 
+                    prefix="fas" 
+                    width="30px" 
+                    height="30px" 
+                    color="#f7931e" 
+                />
+                <p>Agenda tu cita: <a href="https://wa.me/3112153465" target="_blank"> Lunes - Domingo 06:00 AM - 08:00 PM</a></p>
+            </div>
+                <IconWrapper 
+                    iconName="shield-alt" 
+                    prefix="fas" 
+                    width="50px" 
+                    height="50px" 
+                    color="#f7931e" 
+                />
+            
+            <p>Confia tu tranquilidad en las manos de expertos </p>
         </div>
     </div>
 </template>
@@ -42,7 +79,7 @@ import Logo from '../components/Logo.vue'
 const props = defineProps({
     descripcion: {
         type: String,
-        default: "Somos una empresa de consultoría que organiza y reúne de manera eficiente, el mejor talento profesional para diseñar y remodelar tus espacios."
+        default: "Somos una empresa de reparaciones locativas y servicios del hogar que organiza y reúne de manera eficiente, el mejor talento profesional para cubrir todos los esenarios que podrias presentar."
     }
 })
 </script>
@@ -53,15 +90,42 @@ const props = defineProps({
     flex-wrap: wrap;
     gap: 2rem;
     padding: 2rem;
-    background-color: #f5f5f5;
+    background-color: #8181815c;
+    height: 400px;
+}
+a{
+    text-decoration: none;
+    color: #0000FF;
+}
+a:active{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: #0000FF;
 }
 
 .columna {
+    display: flex;
+    flex-direction: column;
     flex: 1;
     min-width: 300px;
     padding: 1rem;
+    gap: 1rem;
+    text-align: justify;
+    align-items: center;
 }
 
+.logo{
+    padding: 2rem;
+}
+.contacto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5rem;
+    width: 300px;
+}
 .columna h2 {
     margin-bottom: 1.5rem;
     font-size: 1.25rem;
@@ -128,10 +192,12 @@ const props = defineProps({
 @media (max-width: 768px) {
     .contenedorFooter {
         flex-direction: column;
+        height: auto;
+        width: 100%;
     }
     
     .columna {
-        width: 100%;
+        width: 95%;
         min-width: auto;
     }
 }

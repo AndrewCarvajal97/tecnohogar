@@ -69,10 +69,7 @@
           </div>
         </div>
   
-        <router-link to="/productos" class="links">
-          Productos
-          <span></span>
-        </router-link>
+       
         <router-link to="/contacto" class="links">
           Contacto
         </router-link>
@@ -109,7 +106,7 @@
   }
   
   .links,.dropdown-container {
-    width: 16.66%;
+    width: 20%;
     color: white;
     text-align: center;
     display: flex;
