@@ -32,19 +32,29 @@
           <span></span>
           <div class="dropdown-menu">
             <div class="dropdown-section">
-              <h3>Acueducto</h3>
-              <router-link to="/servicios/acueducto/instalacion">Instalación</router-link>
-              <router-link to="/servicios/acueducto/mantenimiento">Mantenimiento</router-link>
+              <h3>Servicios De Gas Natural</h3>
+              <router-link to="/servicios/gas-natural/revision">Revisión Periodica</router-link>
+              <router-link to="/servicios/gas-natural/instalacion">Instalación y Traslados</router-link>
+              <router-link to="/servicios/gas-natural/mantenimiento">Mantenimiento y Reparación</router-link>
+              <router-link to="/servicios/gas-natural/mantenimiento">Tramites Usuarios Nuevos</router-link>
             </div>
             <div class="dropdown-section">
-              <h3>Gasodomésticos</h3>
-              <router-link to="/servicios/gas/instalacion">Instalación</router-link>
-              <router-link to="/servicios/gas/revision">Revisión</router-link>
+              <h3>Servicios De Gas GLP</h3>
+              <router-link to="/servicios/gas-glp/instalacion">Instalación</router-link>
+              <router-link to="/servicios/gas-glp/mantenimiento">Mantenimiento y Reparación</router-link>
+              <router-link to="/servicios/gas-glp/revision">Revisión</router-link>
+            </div>
+            <div class="dropdown-section">
+              <h3>Servicios De Fontaneria y Promeria</h3>
+              <router-link to="/servicios/promeria/instalacion">Instalación y Traslados</router-link>
+              <router-link to="/servicios/promeria/mantenimiento">Mantenimiento y Reparación</router-link>
+              <router-link to="/servicios/promeria/mantenimiento">Tramites Usuarios Nuevos</router-link>
+              <router-link to="/servicios/promeria/mantenimiento">Reconexiones </router-link>
             </div>
             <div class="dropdown-section">
               <h3>Desarrollo Web</h3>
               <router-link to="/servicios/web/diseno">Diseño Web</router-link>
-              <router-link to="/servicios/web/apps">Aplicaciones</router-link>
+              <router-link to="/servicios/web/apps">Aplicaciones a la Medida</router-link>
             </div>
             <div class="dropdown-section">
               <h3>Seguridad</h3>
@@ -52,7 +62,7 @@
               <router-link to="/servicios/seguridad/alarmas">Alarmas</router-link>
             </div>
             <div class="dropdown-section">
-              <h3>Decoración</h3>
+              <h3>Servicio de Arreglos Locativos</h3>
               <router-link to="/servicios/decoracion/interiores">Interiores</router-link>
               <router-link to="/servicios/decoracion/exteriores">Exteriores</router-link>
             </div>

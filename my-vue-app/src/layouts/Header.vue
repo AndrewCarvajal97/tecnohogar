@@ -1,14 +1,14 @@
 <template>
     <header>
         <div class="logoPrincipal">
-            <Logo imagenLogo="/Logo.webp"></Logo>
+            <Logo class="logo" imagenLogo="/Logo.webp"></Logo>
         </div>
         <div class="Informacion">
             <CajaContactoWhatsapp 
                 iconName="whatsapp" 
                 prefix="fab" 
-                InfoSuperiror="302-741 2795" 
-                InfoInferior="Info@mejoratucasa.com.co" 
+                InfoSuperiror="+57 311  215 34 65"
+                InfoInferior="andres.carvajal@texelbit.com" 
                 style="cursor: pointer;" 
                 @click="openWhatsApp"
             ></CajaContactoWhatsapp>
@@ -30,9 +30,8 @@
     import Logo from '../components/Logo.vue';
     import CajaContactoWhatsapp from './CajaContactoWhatsapp.vue';
     import CajaRedesSociales from './CajaRedesSociales.vue';
-
-    const openWhatsApp = () => {
     const phoneNumber = '3112153465'; // Número de teléfono (sin el símbolo +)
+    const openWhatsApp = () => {
     const message = '¡Hola! Quisiera más información.'; // Mensaje predefinido
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank'); // Abre la URL en una nueva ventana o pestaña
@@ -49,9 +48,10 @@ header {
     box-sizing: border-box;
 }
 
-.logoPrincipal {
-    margin-left: 1rem; /* Reducido para mejor responsividad */
+.logo{
+    padding-right: 12rem;
 }
+
 
 .Informacion {
     display: flex;
