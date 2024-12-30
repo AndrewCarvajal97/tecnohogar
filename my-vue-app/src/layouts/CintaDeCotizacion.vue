@@ -49,4 +49,21 @@
         display: flex;
         gap: 1rem;
     }
+    @media (max-width: 768px) {
+        .container{
+            flex-direction: column;
+            gap: 2rem;
+            height: 100%;
+        }
+        .frase{
+            width: 100%;
+            font-size: 1.5rem;
+            margin: 1rem 1rem;
+            
+        }
+        .botonesAccion{
+            flex-direction: column;
+            margin-bottom: 1rem;
+        }
+    }
 </style>

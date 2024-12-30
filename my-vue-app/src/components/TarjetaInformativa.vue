@@ -36,7 +36,7 @@
 <style  scoped>
     .contenedor{
         display: flex;
-        max-width:300px;
+        max-width:700px;
         border-right: 1px solid rgba(128, 128, 128, 0.168) ;
         
     }

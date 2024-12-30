@@ -4,6 +4,7 @@
         <ConjuntoTarjetasInformativas></ConjuntoTarjetasInformativas>
         <SeccionServiciosHome></SeccionServiciosHome>
         <CintaDeCotizacion></CintaDeCotizacion>
+        <ColunmaSoluciones></ColunmaSoluciones>
         <div>aca ira algo mas</div>
     </div>
     
@@ -16,6 +17,7 @@
     import ConjuntoTarjetasInformativas from '../layouts/ConjuntoTarjetasInformativas.vue';
     import SeccionServiciosHome from '../layouts/SeccionServiciosHome.vue';
     import CintaDeCotizacion from '../layouts/CintaDeCotizacion.vue';
+    import ColunmaSoluciones from '../layouts/ColunmaSoluciones.vue';
 </script>
 
 <style  scoped>
