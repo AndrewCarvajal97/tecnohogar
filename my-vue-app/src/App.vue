@@ -1,7 +1,7 @@
 <script setup>
   import Header from './layouts/Header.vue';
   import Navbar from './components/Navbar.vue';
-  import ImagenCarrousel from './components/ImagenCarrousel.vue';
+  
 </script>
 
 <template>

@@ -2,6 +2,7 @@
     <div class="contenedor">
         <ImagenCarrousel></ImagenCarrousel>
         <ConjuntoTarjetasInformativas></ConjuntoTarjetasInformativas>
+        <SeccionServiciosHome></SeccionServiciosHome>
         <div>aca ira algo mas</div>
     </div>
     
@@ -12,6 +13,7 @@
 <script setup>
     import ImagenCarrousel from '../components/ImagenCarrousel.vue';
     import ConjuntoTarjetasInformativas from '../layouts/ConjuntoTarjetasInformativas.vue';
+    import SeccionServiciosHome from '../layouts/SeccionServiciosHome.vue';
 </script>
 
 <style  scoped>

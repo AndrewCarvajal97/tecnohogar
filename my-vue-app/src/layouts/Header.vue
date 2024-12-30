@@ -76,7 +76,7 @@ header {
     .Informacion {
         flex-direction: column;
         gap:0;
-        margin: 1rem 0;
+        margin: 1rem 1rem;
         width: 100%;
     }
 }
