@@ -11,67 +11,67 @@ export const projects = [
     { 
       id: 1,
       name: 'Punto Adicional Comercio',
-      image: '../public/ServicesImage/PuntoAdicionalComercio.webp',
+      image: './ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES DE GAS NATURAL Y GLP'
     },
     { 
       id: 2,
       name: 'Revisión De Redes De Gas Natural',
-      image: '../public/ServicesImage/RevisionDeRedesDeGasNatural.webp',
+      image: './ServicesImage/RevisionDeRedesDeGasNatural.webp',
       category: 'INSTALACIONES DE GAS NATURAL Y GLP'
     },
     { 
       id: 3,
       name: 'Construcción De Redes De Gas Natural ',
-      image: '../public/ServicesImage/ContruccionDeRedesDeGasNatural.webp',
+      image: './ServicesImage/ContruccionDeRedesDeGasNatural.webp',
       category: 'INSTALACIONES DE GAS NATURAL Y GLP'
     },
     { 
       id: 4,
       name: 'Mantenimiento De Gasodomesticos',
-      image: '../public/ServicesImage/MantenimientoDeGasodomesticos.webp',
+      image: './ServicesImage/MantenimientoDeGasodomesticos.webp',
       category: 'INSTALACIONES DE GAS NATURAL Y GLP'
     },
     { 
       id: 5,
       name: 'Instalación y Mantenimiento De Calentadores',
-      image: '../public/ServicesImage/InstalacionYMantenimientoDeCalentadores.webp',
+      image: './ServicesImage/InstalacionYMantenimientoDeCalentadores.webp',
       category: 'INSTALACIONES DE GAS NATURAL Y GLP'
     },
     { 
       id: 6,
       name: 'Construcción De Red Con Gas GLP ',
-      image: '../public/ServicesImage/ContruccionDeRedesGasGLP.webp',
+      image: './ServicesImage/ContruccionDeRedesGasGLP.webp',
       category: 'INSTALACIONES DE GAS NATURAL Y GLP'
     },
     { 
       id: 7,
       name: 'Construcción De Red Industrial Con Glp',
-      image: '../public/ServicesImage/ConstruccionDeRedesDeGasGLP.webp',
+      image: './ServicesImage/ConstruccionDeRedesDeGasGLP.webp',
       category: 'INSTALACIONES DE GAS NATURAL Y GLP'
     },
     { 
       id: 8,
       name: 'Construcción Redes Gas GLP ',
-      image: '../public/ServicesImage/ConstruccionRedesGasGLP.webp',
+      image: './ServicesImage/ConstruccionRedesGasGLP.webp',
       category: 'INSTALACIONES DE GAS NATURAL Y GLP'
     },
     { 
       id: 9,
       name: 'Traslados De Cajillas O Registros De Acueducto',
-      image: '../public/ServicesImage/TrasladosRegistrosAcueducto.webp',
+      image: './ServicesImage/TrasladosRegistrosAcueducto.webp',
       category: 'PLOMERIA Y FONTANERIA'
     },
     { 
       id: 10,
       name: 'Cambio De Llaves De Paso  O De Corte',
-      image: '../public/ServicesImage/CambioDeLlaves.webp',
+      image: './ServicesImage/CambioDeLlaves.webp',
       category: 'PLOMERIA Y FONTANERIA'
     },
     { 
       id: 11,
       name: 'Reconexiones De Servicio De Agua',
-      image: '../public/ServicesImage/ReconexionesAgua.webp',
+      image: './ServicesImage/ReconexionesAgua.webp',
       category: 'PLOMERIA Y FONTANERIA'
     },
     { 
@@ -95,13 +95,13 @@ export const projects = [
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: '../public/ServicesImage/PuntoAdicionalComercio.webp',
+      image: './ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 16,
       name: 'Punto Adicional Comercio',
-      image: '../public/ServicesImage/PuntoAdicionalComercio.webp',
+      image: './ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
@@ -137,79 +137,79 @@ export const projects = [
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: '../public/ServicesImage/PuntoAdicionalComercio.webp',
+      image: './ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: '../public/ServicesImage/PuntoAdicionalComercio.webp',
+      image: './ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: '../public/ServicesImage/PuntoAdicionalComercio.webp',
+      image: './ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: '../public/ServicesImage/PuntoAdicionalComercio.webp',
+      image: './ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: '../public/ServicesImage/PuntoAdicionalComercio.webp',
+      image: './ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: '../public/ServicesImage/PuntoAdicionalComercio.webp',
+      image: './ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: '../public/ServicesImage/PuntoAdicionalComercio.webp',
+      image: './ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: '../public/ServicesImage/PuntoAdicionalComercio.webp',
+      image: './ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: '../public/ServicesImage/PuntoAdicionalComercio.webp',
+      image: './ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: '../public/ServicesImage/PuntoAdicionalComercio.webp',
+      image: './ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: '../public/ServicesImage/PuntoAdicionalComercio.webp',
+      image: './ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: '../public/ServicesImage/PuntoAdicionalComercio.webp',
+      image: './ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: '../public/ServicesImage/PuntoAdicionalComercio.webp',
+      image: './ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
 
