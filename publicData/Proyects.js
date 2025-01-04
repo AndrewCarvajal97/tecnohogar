@@ -11,7 +11,7 @@ export const projects = [
     { 
       id: 1,
       name: 'Punto Adicional Comercio',
-      image: './ServicesImage/PuntoAdicionalComercio.webp',
+      image: 'tecnohogar/ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES DE GAS NATURAL Y GLP'
     },
     { 
@@ -23,85 +23,85 @@ export const projects = [
     { 
       id: 3,
       name: 'Construcción De Redes De Gas Natural ',
-      image: './ServicesImage/ContruccionDeRedesDeGasNatural.webp',
+      image: 'tecnohogar/ServicesImage/ContruccionDeRedesDeGasNatural.webp',
       category: 'INSTALACIONES DE GAS NATURAL Y GLP'
     },
     { 
       id: 4,
       name: 'Mantenimiento De Gasodomesticos',
-      image: './ServicesImage/MantenimientoDeGasodomesticos.webp',
+      image: 'tecnohogar/ServicesImage/MantenimientoDeGasodomesticos.webp',
       category: 'INSTALACIONES DE GAS NATURAL Y GLP'
     },
     { 
       id: 5,
       name: 'Instalación y Mantenimiento De Calentadores',
-      image: './ServicesImage/InstalacionYMantenimientoDeCalentadores.webp',
+      image: 'tecnohogar/ServicesImage/InstalacionYMantenimientoDeCalentadores.webp',
       category: 'INSTALACIONES DE GAS NATURAL Y GLP'
     },
     { 
       id: 6,
       name: 'Construcción De Red Con Gas GLP ',
-      image: './ServicesImage/ContruccionDeRedesGasGLP.webp',
+      image: 'tecnohogar/ServicesImage/ContruccionDeRedesGasGLP.webp',
       category: 'INSTALACIONES DE GAS NATURAL Y GLP'
     },
     { 
       id: 7,
       name: 'Construcción De Red Industrial Con Glp',
-      image: './ServicesImage/ConstruccionDeRedesDeGasGLP.webp',
+      image: 'tecnohogar/ServicesImage/ConstruccionDeRedesDeGasGLP.webp',
       category: 'INSTALACIONES DE GAS NATURAL Y GLP'
     },
     { 
       id: 8,
       name: 'Construcción Redes Gas GLP ',
-      image: './ServicesImage/ConstruccionRedesGasGLP.webp',
+      image: 'tecnohogar/ServicesImage/ConstruccionRedesGasGLP.webp',
       category: 'INSTALACIONES DE GAS NATURAL Y GLP'
     },
     { 
       id: 9,
       name: 'Traslados De Cajillas O Registros De Acueducto',
-      image: './ServicesImage/TrasladosRegistrosAcueducto.webp',
+      image: 'tecnohogar/ServicesImage/TrasladosRegistrosAcueducto.webp',
       category: 'PLOMERIA Y FONTANERIA'
     },
     { 
       id: 10,
       name: 'Cambio De Llaves De Paso  O De Corte',
-      image: './ServicesImage/CambioDeLlaves.webp',
+      image: 'tecnohogar/ServicesImage/CambioDeLlaves.webp',
       category: 'PLOMERIA Y FONTANERIA'
     },
     { 
       id: 11,
       name: 'Reconexiones De Servicio De Agua',
-      image: './ServicesImage/ReconexionesAgua.webp',
+      image: 'tecnohogar/ServicesImage/ReconexionesAgua.webp',
       category: 'PLOMERIA Y FONTANERIA'
     },
     { 
       id: 12,
       name: 'Cocina Minimalista',
-      image: '/images/kitchen1.jpg',
+      image: 'tecnohogar/images/kitchen1.jpg',
       category: 'DISEÑO DE INTERIORES'
     },
     { 
       id: 13,
       name: 'Diseño de Baño Moderno',
-      image: '/images/bathroom1.jpg',
+      image: 'tecnohogar/images/bathroom1.jpg',
       category: 'BAÑOS'
     },
     { 
       id: 14,
       name: 'Cocina Minimalista',
-      image: '/images/kitchen1.jpg',
+      image: 'tecnohogar/images/kitchen1.jpg',
       category: 'DISEÑO DE INTERIORES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: './ServicesImage/PuntoAdicionalComercio.webp',
+      image: 'tecnohogar/ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 16,
       name: 'Punto Adicional Comercio',
-      image: './ServicesImage/PuntoAdicionalComercio.webp',
+      image: 'tecnohogar/ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
@@ -118,7 +118,7 @@ export const projects = [
     },
     { 
       id: 19,
-      name: 'Instalacion Control Parental Para Menores',
+      name: 'Instalacionv Control Parental Para Menores',
       image: 'https://img.freepik.com/vector-gratis/composicion-control-parental-personajes-garabatos-padres-hija-pantallas-computadora-pictogramas-prohibicion-ilustracion-vectorial_1284-83929.jpg?t=st=1735586063~exp=1735589663~hmac=4132f02576381ff2defc1e783775b4fb405869dc96aec50f493770a0b06214f7&w=740',
       category: 'SISTEMAS DE SEGURIDAD'
     },
@@ -137,49 +137,49 @@ export const projects = [
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: './ServicesImage/PuntoAdicionalComercio.webp',
+      image: 'tecnohogar/ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: './ServicesImage/PuntoAdicionalComercio.webp',
+      image: 'tecnohogar/ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: './ServicesImage/PuntoAdicionalComercio.webp',
+      image: 'tecnohogar/ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: './ServicesImage/PuntoAdicionalComercio.webp',
+      image: 'tecnohogar/ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: './ServicesImage/PuntoAdicionalComercio.webp',
+      image: 'tecnohogar/ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: './ServicesImage/PuntoAdicionalComercio.webp',
+      image: 'tecnohogar/ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: './ServicesImage/PuntoAdicionalComercio.webp',
+      image: 'tecnohogar/ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
       id: 15,
       name: 'Punto Adicional Comercio',
-      image: './ServicesImage/PuntoAdicionalComercio.webp',
+      image: 'tecnohogar/ServicesImage/PuntoAdicionalComercio.webp',
       category: 'INSTALACIONES'
     },
     { 
