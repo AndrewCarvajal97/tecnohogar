@@ -1,7 +1,7 @@
 <template>
     <div class="contenedorFooter">
         <div class="columna">
-            <Logo imagenLogo="/Logo.webp" class="logo" style="height: 200px;"></Logo>
+            <Logo imagenLogo="./Logo.webp" class="logo" style="height: 200px;"></Logo>
             <p>{{ descripcion }}</p>
         </div>
         <div class="columna">

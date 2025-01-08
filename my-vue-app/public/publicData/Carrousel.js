@@ -1,11 +1,11 @@
 export const slides = [
     {
-      image: '/public/Carrousel.Imagen/GasNatural.webp',
+      image: './Carrousel.Imagen/GasNatural.webp',
       title: 'Servicios De Gas Natural',
       description: 'Conexiones seguras y eficientes de gas natural para tu hogar o negocio. Confía en nuestros expertos para garantizar comodidad, ahorro energético y un servicio de alta calidad.'
     },
     {
-      image: '/public/Carrousel.Imagen/GasGLP.webp',
+      image: './Carrousel.Imagen/GasGLP.webp',
       title: 'Servicios De Gas GLP',
       description: 'Ofrecemos soluciones completas en Gas GLP: Diseño de redes ,instalación segura, suministro confiable y mantenimiento profesional. Garantizamos eficiencia energética y comodidad en cada proyecto, adaptándonos a tus necesidades.'
     },

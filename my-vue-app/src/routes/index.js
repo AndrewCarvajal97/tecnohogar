@@ -14,7 +14,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: '/',
+      path: '/tecnohogar',
       name: 'home',
       component: Home
     },

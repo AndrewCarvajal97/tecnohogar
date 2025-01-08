@@ -1,7 +1,7 @@
 <template>
-    <header>
+    <div class="cabecera">
         <div class="logoPrincipal">
-            <Logo class="logo" imagenLogo="/Logo.webp"></Logo>
+            <Logo class="logo" imagenLogo="./Logo.webp"></Logo>
         </div>
         <div class="Informacion">
             <CajaContactoWhatsapp 
@@ -23,7 +23,7 @@
             ></CajaContactoWhatsapp>
             <CajaRedesSociales></CajaRedesSociales>
         </div>
-    </header>
+    </div>
 </template>
 
 <script setup>
@@ -40,7 +40,7 @@
 
 
 <style scoped>
-header {
+.cabecera {
     display: flex;
     width: 100%;
     justify-content: space-around;
